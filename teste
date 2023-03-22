@@ -1,0 +1,31 @@
+using System;
+
+    class program{
+
+       public static void Main(String [] args){
+
+        int contadorY =0, contadorN = 0;
+        int resp;
+
+        int pop = int.Parse(Console.ReadLine());
+        if(pop<=4||pop<=233000)
+    {
+        int [] vetor = new int[pop];
+
+        for(int i =0;i<pop;i++)
+        {
+            Console.WriteLine("pessoa "+vetor[i+1]+"considera o cenário econômico atual satisfatorio?\ntecle 0 para sim e 1 para nâo");
+            vetor[i] = int.Parse(Console.ReadLine());
+            
+
+            
+        }
+        for(int i =0; i<pop;i++){
+            Console.WriteLine(vetor[i]);
+        }
+
+
+    }
+    }
+
+    }
